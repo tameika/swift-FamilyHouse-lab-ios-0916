@@ -11,11 +11,6 @@
 		5B95F5641DAC1D8200E37367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B95F5621DAC1D8200E37367 /* Main.storyboard */; };
 		5B95F5661DAC1D8200E37367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B95F5651DAC1D8200E37367 /* Assets.xcassets */; };
 		5B95F5691DAC1D8200E37367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B95F5671DAC1D8200E37367 /* LaunchScreen.storyboard */; };
-		5B95F5711DAC1E2F00E37367 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B95F5701DAC1E2F00E37367 /* Character.swift */; };
-		5B95F5731DAC20C000E37367 /* FilmLocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B95F5721DAC20C000E37367 /* FilmLocationTableViewController.swift */; };
-		5B95F5751DAC21D900E37367 /* FilmLocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B95F5741DAC21D900E37367 /* FilmLocationTableViewCell.swift */; };
-		5B95F5771DAC246A00E37367 /* CharacterCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B95F5761DAC246A00E37367 /* CharacterCollectionViewController.swift */; };
-		5B95F5791DAC25B800E37367 /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B95F5781DAC25B800E37367 /* CharacterCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,11 +20,6 @@
 		5B95F5651DAC1D8200E37367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B95F5681DAC1D8200E37367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B95F56A1DAC1D8200E37367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B95F5701DAC1E2F00E37367 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		5B95F5721DAC20C000E37367 /* FilmLocationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmLocationTableViewController.swift; sourceTree = "<group>"; };
-		5B95F5741DAC21D900E37367 /* FilmLocationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmLocationTableViewCell.swift; sourceTree = "<group>"; };
-		5B95F5761DAC246A00E37367 /* CharacterCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewController.swift; sourceTree = "<group>"; };
-		5B95F5781DAC25B800E37367 /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +57,6 @@
 				5B95F5651DAC1D8200E37367 /* Assets.xcassets */,
 				5B95F5671DAC1D8200E37367 /* LaunchScreen.storyboard */,
 				5B95F56A1DAC1D8200E37367 /* Info.plist */,
-				5B95F5701DAC1E2F00E37367 /* Character.swift */,
-				5B95F5721DAC20C000E37367 /* FilmLocationTableViewController.swift */,
-				5B95F5741DAC21D900E37367 /* FilmLocationTableViewCell.swift */,
-				5B95F5761DAC246A00E37367 /* CharacterCollectionViewController.swift */,
-				5B95F5781DAC25B800E37367 /* CharacterCollectionViewCell.swift */,
 			);
 			path = FamilyHouse;
 			sourceTree = "<group>";
@@ -149,11 +134,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B95F5791DAC25B800E37367 /* CharacterCollectionViewCell.swift in Sources */,
-				5B95F5731DAC20C000E37367 /* FilmLocationTableViewController.swift in Sources */,
-				5B95F5711DAC1E2F00E37367 /* Character.swift in Sources */,
-				5B95F5771DAC246A00E37367 /* CharacterCollectionViewController.swift in Sources */,
-				5B95F5751DAC21D900E37367 /* FilmLocationTableViewCell.swift in Sources */,
 				5B95F55F1DAC1D8200E37367 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +296,7 @@
 				5B95F56F1DAC1D8200E37367 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
